@@ -9,13 +9,13 @@ class FirebaseService {
         this._ADMIN_TOKEN = 'FIREBASE ADMIN TOKEN';
 
         const firebaseConfig = {
-            apiKey: "FIREBASE API KEY",
-            authDomain: "FIREBASE DOMAIN",
-            projectId: "treasure-hunt",
-            storageBucket: "GOOGLE STORAGE BUCKET",
-            messagingSenderId: "MESSAGING SENDER ID",
-            appId: "APP ID",
-            measurementId: "GOOGLE ANALYTICS ID"
+            apiKey: "AIzaSyCKg3WO3e741dmV-jbEH0Ckf6ZejAsroOA",
+            authDomain: "game-71792.firebaseapp.com",
+            projectId: "game-71792",
+            storageBucket: "game-71792.appspot.com",
+            messagingSenderId: "1016762833262",
+            appId: "1:1016762833262:web:2a4f0e53cab8cbac05497f",
+            measurementId: "G-BLW870LQ5M"
         }
 
         const fireApp = initializeApp(firebaseConfig);
