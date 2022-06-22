@@ -3,7 +3,7 @@ import * as admin from 'firebase-admin';
 import { firestore } from 'firebase-admin';
 
 
-const regionalFunctions = functions.region('europe-west1');
+const regionalFunctions = functions.region('us-central');
 admin.initializeApp();
 
 const EMAIL_REG_EXP = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
